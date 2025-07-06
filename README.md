@@ -40,5 +40,36 @@ GrowVATE is a modern, responsive, and user-friendly web service built with PHP, 
 
 ---
 
+
+Debug using xampp just paste to th htdocs folder. then in phpmyadmin import the sql after creating a new database named "marketing_platform"
+
+
 ## 📁 Project Structure
+project-root/
+├── config/
+│   └── database.php
+├── includes/
+│   ├── functions.php
+│   ├── header.php
+│   └── footer.php
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── app.js
+│   ├── index.php
+│   ├── submit_lead.php
+│   ├── register.php
+│   ├── verify.php
+│   ├── login.php
+│   ├── reset_request.php
+│   ├── reset_password.php
+│   ├── dashboard.php
+│   ├── admin.php
+│   ├── update_campaign.php
+│   ├── export.php
+│   └── logout.php
+└── sql/
+    └── schema.sql
+
 
